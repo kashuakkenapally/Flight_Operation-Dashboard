@@ -180,6 +180,6 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 👩‍💻 Author
 
-**Kashmeera Akkenapally**  
+**Kashmeera**  
 Software Engineer | Java · Spring Boot · React · AWS  
 [LinkedIn](https://www.linkedin.com/in/kashmeeraa/) | [GitHub](https://github.com/YOUR_USERNAME)
