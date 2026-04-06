@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: flight-ops-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    networks:
+      - flight-net
+
+  frontend:
+    build: ./frontend
+    container_name: flight-ops-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - flight-net
+
+networks:
+  flight-net:
+    driver: bridge
