@@ -4,7 +4,7 @@ A full-stack, production-grade **real-time flight operations monitoring platform
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -17,7 +17,7 @@ A full-stack, production-grade **real-time flight operations monitoring platform
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────┐        REST API        ┌──────────────────────┐
@@ -33,7 +33,7 @@ A full-stack, production-grade **real-time flight operations monitoring platform
 
 ---
 
-## ✨ Features
+## Features
 
 - **Live flight board** — view all flights with origin, destination, gate, status
 - **Operational summary** — KPI cards: total flights, in-flight, delayed, cancelled, avg delay
@@ -47,7 +47,7 @@ A full-stack, production-grade **real-time flight operations monitoring platform
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 17+
@@ -88,7 +88,7 @@ npm start
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -101,7 +101,7 @@ npm start
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 cd backend
@@ -115,7 +115,7 @@ Tests cover:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flight-ops-dashboard/
@@ -153,7 +153,7 @@ flight-ops-dashboard/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 **Switch to MySQL (production):**
 
@@ -168,7 +168,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] WebSocket support for true real-time push updates
 - [ ] Kafka integration for event-driven status updates
@@ -178,7 +178,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Kashmeera**  
 Software Engineer | Java · Spring Boot · React · AWS  
